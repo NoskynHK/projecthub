@@ -27,7 +27,7 @@
             <button class="close-side" onclick="toggleSidebar()" aria-label="Chiudi">&times;</button>
         </div>
 
-        <!-- ===== BIO: cambia qui il testo quando vuoi ===== -->
+        <!-- ===== BIO ===== -->
         <p class="side-bio"
            data-it="Ciao! Sono Noskyn. Creo piccoli giochi browser e strumenti web utili, tutti gratuiti e senza registrazione. Ogni progetto nasce da un'idea mia o della community."
            data-en="Hi! I'm Noskyn. I build small browser games and handy web tools, all free and with no sign-up. Every project starts from an idea of mine or from the community."
@@ -52,7 +52,6 @@
             <a href="https://discord.gg/SrkgXctQrC" target="_blank" class="side-social-btn discord">
                 <i class="fab fa-discord"></i> Discord
             </a>
-            <!-- ===== INCOLLA QUI IL TUO LINK LINKTREE ===== -->
             <a href="https://linktr.ee/NoskynHK" target="_blank" class="side-social-btn linktree">
                 <i class="fas fa-link"></i> Linktree
             </a>
@@ -69,9 +68,9 @@
             <div class="logo">NoskynHK</div>
         </div>
         <div class="lang-menu">
-            <button onclick="changeLang('it')" data-lang-btn="it">🇮🇹 IT</button>
-            <button onclick="changeLang('en')" data-lang-btn="en">🇬🇧 EN</button>
-            <button onclick="changeLang('de')" data-lang-btn="de">🇩🇪 DE</button>
+            <button onclick="changeLang('it')" data-lang-btn="it"> IT</button>
+            <button onclick="changeLang('en')" data-lang-btn="en"> EN</button>
+            <button onclick="changeLang('de')" data-lang-btn="de"> DE</button>
         </div>
     </nav>
 
@@ -94,7 +93,7 @@
 
         <div class="grid">
             <div class="card">
-                <div class="icon">🐍</div>
+                <div class="icon"></div>
                 <h3>Snake Game</h3>
                 <p class="desc" data-it="Il classico gioco del serpente." data-en="The classic snake game." data-de="Das klassische Schlangenspiel."></p>
                 <a href="https://noskynhk.github.io/snakegame/" target="_blank" class="play-btn"
@@ -102,7 +101,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">🧠</div>
+                <div class="icon"></div>
                 <h3>Emoji Memory</h3>
                 <p class="desc" data-it="Allena la tua memoria con le emoji." data-en="Train your memory with emojis." data-de="Trainiere dein Gedächtnis mit Emojis."></p>
                 <a href="https://noskynhk.github.io/emoji-memory/" target="_blank" class="play-btn"
@@ -110,7 +109,7 @@
             </div>
 
             <div class="card">
-                <div class="icon">🕹️</div>
+                <div class="icon"></div>
                 <h3>Tetris</h3>
                 <p class="desc" data-it="Un gioco per passare il tempo." data-en="A game to pass the time." data-de="Ein Spiel, um sich die Zeit zu vertreiben."></p>
                 <a href="https://noskynhk.github.io/tetris/" target="_blank" class="play-btn"
@@ -130,7 +129,7 @@
 
         <div class="grid">
             <div class="card tool">
-                <div class="icon">🖼️</div>
+                <div class="icon"></div>
                 <h3>Foto Merge</h3>
                 <p class="desc"
                    data-it="Unisci più foto in un'unica immagine, direttamente dal browser."
@@ -140,8 +139,19 @@
                       data-it="Disponibile solo in italiano"
                       data-en="Italian only"
                       data-de="Nur auf Italienisch"></span>
-                <!-- ===== INCOLLA QUI IL LINK DI FOTO MERGE ===== -->
                 <a href="https://noskynhk.github.io/photo-merging/" target="_blank" class="play-btn"
+                   data-it="Apri" data-en="Open" data-de="Öffnen"></a>
+            </div>
+
+            <!-- NUOVA SCHEDA IN STRUMENTI WEB: BinaryLab -->
+            <div class="card tool">
+                <div class="icon"></div>
+                <h3>BinaryLab</h3>
+                <p class="desc"
+                   data-it="Strumento per esplorare e convertire dati in formato binario."
+                   data-en="Tool to explore and convert data into binary format."
+                   data-de="Tool zum Erkunden und Konvertieren von Daten in das Binärformat."></p>
+                <a href="https://noskynhk.github.io/binarylab/" target="_blank" class="play-btn"
                    data-it="Apri" data-en="Open" data-de="Öffnen"></a>
             </div>
         </div>
@@ -155,7 +165,6 @@
             <a href="https://discord.gg/SrkgXctQrC" target="_blank" class="discord-btn">
                 <i class="fab fa-discord"></i> Discord Server
             </a>
-            <!-- ===== INCOLLA QUI IL TUO LINK LINKTREE ===== -->
             <a href="https://linktr.ee/NoskynHK" target="_blank" class="linktree-btn">
                 <i class="fas fa-link"></i> Linktree
             </a>
@@ -164,7 +173,7 @@
 
     <!-- ===== WIDGET IDEE ===== -->
     <div class="sugg-widget" id="suggWidget">
-        <button class="widget-trigger" onclick="toggleWidget()" aria-label="Idee">💡</button>
+        <button class="widget-trigger" onclick="toggleWidget()" aria-label="Idee"></button>
 
         <div class="widget-panel" id="widgetPanel">
             <div class="panel-header">
@@ -183,6 +192,7 @@
                     <option value="Memory">Emoji Memory</option>
                     <option value="Tetris">Tetris</option>
                     <option value="FotoMerge">Foto Merge</option>
+                    <option value="BinaryLab">BinaryLab</option>
                     <option value="New" data-it="Nuova idea" data-en="New idea" data-de="Neue Idee"></option>
                 </select>
 
