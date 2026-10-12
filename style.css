@@ -717,60 +717,6 @@ footer p {
     transform: translateY(-1px); 
 }
 
-/* ===== STILI EASTER EGG CARAMEL DANSEN ASCII ===== */
-.caramel-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #050505;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999999;
-    overflow: hidden;
-}
-
-.caramel-overlay.hidden {
-    display: none;
-}
-
-#caramel-ascii-container {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 7px;
-    line-height: 6px;
-    letter-spacing: 0.5px;
-    white-space: pre;
-    text-align: left;
-    user-select: none;
-    background: #000;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 30px rgba(255, 119, 255, 0.25);
-}
-
-#caramel-close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: #ff0055;
-    color: white;
-    border: none;
-    padding: 10px 18px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-    z-index: 1000000;
-    box-shadow: 0 0 15px rgba(255, 0, 85, 0.7);
-    transition: background 0.2s;
-}
-
-#caramel-close-btn:hover {
-    background: #ff3377;
-}
-
 /* ===== ACCESSIBILITÀ & MOBILE ===== */
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
     outline: 2px solid var(--accent2);
