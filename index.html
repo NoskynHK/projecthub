@@ -13,14 +13,6 @@
 </head>
 <body>
 
-    <!-- ===== EASTER EGG OVERLAY ASCII & AUDIO ===== -->
-    <div id="caramel-easter-egg" class="caramel-overlay hidden">
-        <button id="caramel-close-btn" onclick="closeCaramelEasterEgg()">✕ Chiudi</button>
-        <pre id="caramel-ascii-container"></pre>
-    </div>
-    <!-- Sostituisci "caramel-song.mp3" con il file della tua canzone -->
-    <audio id="caramel-song" src="caramel-song.mp3" preload="auto" loop></audio>
-
     <!-- ===== SIDEBAR ===== -->
     <aside class="sidebar" id="sidebar" aria-hidden="true">
         <div class="side-top">
@@ -76,8 +68,7 @@
             <button class="hamburger" onclick="toggleSidebar()" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Logo cliccabile per lanciare l'easter egg -->
-            <div class="logo" onclick="triggerCaramelEasterEgg()" title="Cliccami!" style="cursor: pointer;">NoskynHK</div>
+            <div class="logo">NoskynHK</div>
         </div>
         <div class="lang-menu">
             <button onclick="changeLang('it')" data-lang-btn="it">🇮🇹 IT</button>
