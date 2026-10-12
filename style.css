@@ -582,6 +582,22 @@ footer p {
     box-shadow: 0 8px 22px rgba(40, 167, 110, 0.35); 
 }
 
+/* ===== STILE LINK SEGRETO EASTER EGG ===== */
+.secret-easter-link {
+    color: var(--muted);
+    font-size: 1.2rem;
+    text-decoration: none;
+    opacity: 0.25;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.secret-easter-link:hover {
+    opacity: 1;
+    transform: scale(1.25);
+    text-shadow: 0 0 12px var(--accent2);
+}
+
 /* ===== WIDGET IDEE (Stile Binary Lab Float) ===== */
 .sugg-widget {
     position: fixed;
